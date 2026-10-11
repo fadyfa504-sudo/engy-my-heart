@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>ليكي</title>
+</head>
+<body style="background:#ffafbd;display:flex;justify-content:center;align-items:center;height:100vh;font-family:Arial;text-align:center">
+
+<div id="box" style="background:white;padding:30px;border-radius:20px">
+<h2>❤️ رسالة سرية ليكي ❤️</h2>
+<input id="pass" placeholder="الباسورد" style="padding:10px;border-radius:20px;text-align:center"><br><br>
+<button onclick="check()" style="padding:10px 25px;background:#ff4d6d;color:white;border:0;border-radius:20px">افتحي</button>
+</div>
+
+<script>
+function check(){
+let v=document.getElementById('pass').value;
+if(v=="15/12/2002" || v=="15122002"){
+document.getElementById('box').innerHTML="<h2>انتي اغلي وأهم حاجة ف حياتي ♥️<br><br>بحبك ي نور عيني ♥️<br><br>اتمني نفضل طول العمر سوا 🥹♥️<br><br>15/12/2002</h2>";
+}else{alert("الباسورد غلط يا قمر");}
+}
+</script>
+
+</body>
+</html>
